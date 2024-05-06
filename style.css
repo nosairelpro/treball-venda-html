@@ -1,9 +1,40 @@
-body{
-  font-family: "Sevillana", cursive;
-  padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-nav{
-  background-color: #111;
-  color: white;
+body {
+  font-family: "Bebas Neue", sans-serif;
 }
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 120;
+  margin: 0 auto;
+}
+
+.header {
+  background: linear-gradient(
+    180deg,
+    rgba(251,205,49,1) 0,
+    rgba(249,196,40,1) 51%,
+    rgba(246,179,32,1) 100%,);
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+}
+
