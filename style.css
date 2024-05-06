@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -9,7 +9,7 @@
 }
 
 body {
-  font-family: "Bebas Neue", sans-serif;
+  font-family: 'Bebas Neue', sans-serif, cursive;
 }
 
 p {
@@ -17,7 +17,7 @@ p {
 }
 
 .container {
-  max-width: 120;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -25,8 +25,8 @@ p {
   background: linear-gradient(
     180deg,
     rgba(251,205,49,1) 0%,
-    rgb(255, 194, 12) 51%,
-    rgba(246,179,32,1) 100%,);
+    rgba(249,196,40,1) 51%,
+    rgba(246,179,32,1) 100%);
   min-height: 70vh;
   display: flex;
   align-items: center;
@@ -79,6 +79,7 @@ p {
 
 .menu label {
   cursor: pointer;
+  display: none;
 }
 
 .header-content {
@@ -111,6 +112,7 @@ p {
   background-color: #F55442;
   color: #FFFFFF;
   border-radius: 25px;
+  font-size: 18px;
 }
 
 .btn-1:hover {
@@ -256,7 +258,7 @@ h2 {
 }
 
 table {
-  text-align: left;
+  text-align: center;
 }
 
 .ingredients {
