@@ -4,7 +4,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
 }
+
 body {
   font-family: "Bebas Neue", sans-serif;
 }
@@ -36,5 +39,44 @@ p {
   right: 0;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  width: 40px;
+}
+
+.menu .navbar ul li {
+  position: relative;
+  float: left;
+}
+
+.menu .navbar ul li a {
+  font-size: 18px;
+  padding: 40px;
+  color: #3F3F3F;
+  display: block;
+  font-weight: bold;
+}
+
+.menu .navbar ul li a:hover {
+  color: #e06927
+}
+
+.socials-1 img{
+  width: 30px;
+  margin-right: 15px;
+}
+
+#menu {
+  display: none;
+}
+
+.menu-icono {
+  width: 25px;
+}
+
+.menu label {
+  cursor: pointer;
 }
 
